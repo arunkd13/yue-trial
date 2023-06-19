@@ -1,0 +1,24 @@
+{
+    "name": "yuetrial",
+    "version": "1.0.0",
+    "author": "Arunkumar Dhananjayan <arunkd13@gmail.com>",
+    "build": {
+        "appId": "com.app.id.yuetrial",
+        "productName": "Yue Trial App",
+        "copyright": "Copyright © 2020 Company",
+        "minify": true,
+        "unpack": "+(*.node|*.png)",
+        "unpackDir": "{assets,build}",
+        "ignore": [
+            "assets/*"
+        ],
+        "icons": {
+            "win": "assets/icon.ico",
+            "mac": "assets/icon.icns"
+        },
+        "extraInfoPlist": "<key>LSUIElement</key><true/>"
+    },
+    "dependencies": {
+        "fetch-yode": "^1.0.5"
+    }
+}
