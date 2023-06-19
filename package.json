@@ -19,6 +19,7 @@
         "extraInfoPlist": "<key>LSUIElement</key><true/>"
     },
     "dependencies": {
-        "fetch-yode": "^1.0.5"
+        "fetch-yode": "^1.0.5",
+        "gui": "^0.13.13"
     }
 }
